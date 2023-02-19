@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    flex: 1;
+    padding-top: 2%;
+    gap: 600px;
+
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.nav-container li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  color: white;
+}
+
+.sect1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #1F2937;
+  color: white;
+  padding: 100px;
+}
+
+.desc-dogs > h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+
+.desc-dogs p{
+  font-size: 24px;
+}
+
+
+.nav-container a {
+  text-decoration:none;
+  color: white;
+}
+
+
+
+.desc-dogs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+
+.sign_up {
+  background-color: #3882F6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+.img1 {
+  width: auto;
+  height: 240px;
+  border-radius: 15px;
+}
+
+
+.sect2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.sect2 h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+
+.breeds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.breeds img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border: 5px solid #3882F6;
+  border-radius: 25px;
+}
+
+.breeds figcaption {
+  text-align: center;
+}
+
+.sect3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sect3 blockquote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  padding: 100px 540px;
+}
+
+.sect3 cite {
+  display: block;
+  text-align: right;
+  font-weight: 600;
+}
+
+
+.sect4 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  background-color: #3882F6;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+
+.sign_up2 {
+  background-color: #3882F6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #E5E7EB;
+  border-radius: 10px;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+
